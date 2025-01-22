@@ -220,4 +220,10 @@ If your work or research benefits from this repo, please cite two bibs below : )
 ## Contact
 **Jianzhu Guo (郭建珠)** [[Homepage](https://guojianzhu.com), [Google Scholar](https://scholar.google.com/citations?user=W8_JzNcAAAAJ&hl=en&oi=ao)]: **guojianzhu1994@foxmail.com** or **guojianzhu1994@gmail.com** or **jianzhu.guo@nlpr.ia.ac.cn** (this email will be invalid soon).
 
+<<<<<<< HEAD
 ## test
+=======
+
+
+
+>>>>>>> c913a7126f59ed4b63a64f78d55bc29b9224d820
