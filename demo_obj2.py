@@ -9,7 +9,7 @@ vertices = np.asarray(mesh.vertices)
 original_vertices = vertices.copy()
 # 鼻子调整
 nose_region = vertices[:, 2] > np.mean(vertices[:, 2])  # 选择鼻子区域
-vertices[nose_region, 2] += 2.0  # 让鼻子更高
+# vertices[nose_region, 2] += 3.0  # 让鼻子更高
 
 # 颧骨调整
 cheek_region = (vertices[:, 0] > 0.02) | (vertices[:, 0] < -0.02)  # 选取颧骨
@@ -26,8 +26,8 @@ mesh.compute_vertex_normals()
 # 显示调整后的人脸
 o3d.visualization.draw_geometries([mesh])
 
-import tkinter as tk
-from tkinter import filedialog
+# import tkinter as tk
+# from tkinter import filedialog
 
 # # 创建滑块
 # root = tk.Tk()
